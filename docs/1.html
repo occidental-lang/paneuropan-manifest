@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Unesim - Pan-Europan Manifest</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Li Paneuropan Manifest</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="1.html" class="active"><strong aria-hidden="true">1.</strong> Unesim</a></li><li class="chapter-item expanded "><a href="2.html"><strong aria-hidden="true">2.</strong> Duesim</a></li><li class="chapter-item expanded "><a href="3.html"><strong aria-hidden="true">3.</strong> Triesim</a></li><li class="chapter-item expanded "><a href="4.html"><strong aria-hidden="true">4.</strong> Quaresim</a></li><li class="chapter-item expanded "><a href="5.html"><strong aria-hidden="true">5.</strong> Quinesim</a></li><li class="chapter-item expanded "><a href="6.html"><strong aria-hidden="true">6.</strong> Sixesim</a></li><li class="chapter-item expanded "><a href="7.html"><strong aria-hidden="true">7.</strong> Settesim</a></li><li class="chapter-item expanded "><a href="8.html"><strong aria-hidden="true">8.</strong> Ottesim</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pan-Europan Manifest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/paneuropan-manifest" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#prim" id="prim">Prim</a></h1>
+<p>Europanos!</p>
+<p>Europanos!</p>
+<p>Li fatal hor de Europa sona!</p>
+<p>In europan fabricas omni die on forja armes, por lacerar europan mannes - in europan laboratorias omni die on prepara venenes, por exterminar europan féminas e infantes.</p>
+<p>In sam témpore Europa lude con su fate in íncomprensibil frivolitá; in íncomprensibil íncuidantie it ne vide quo menacia it; in íncomprensibil ínactivitá it lassa drivar se sin volentie in li max terribil catastrofe, quel jamá ha atinget un continente.</p>
+<p>Li politica de Europa stira a un nov guerre. Du dozen nov Alsacia-Lorenas ha nascet. Un crise succede al altri. Chascun die li europan guerre anihilativ posse erupter per un accidente - fórsan per on atentate o per un revolte, - quel transforma nor continente a un sepultoria.</p>
+<p>Ti guerre anihilativ, quel es preparat del europan politica, pri terribilitá va superar li ultim grand guerre tam - quam ti ci ha superat li guerre germano-francés. Su elemente va esser li aer - su arme li venen - su scope li extirpation del adversario. Li combatte principal va directer se contra li cités del &quot;hinterland&quot;, contra féminas e infantes. In ti massacre li victet nationes va esser anihilat - li victoriosis: mortalmen vulnerat.</p>
+<p>Ti menaciant guerre significa li profund ruina de Europa, de su cultura e economie. Altri continentes va vicear it.</p>
+<p>Li duesim dangere a quel un dissplittrat Europa marcha, es li conquestation per Russia.</p>
+<p>Russia sta in sam relation a Europa, quam a su témpor Macedonia a Grecia.</p>
+<p>In comensa del reyentie de Philippos null greco credet un macedonian dangere; nam tande Macedonia esset in pelmel e anarchie.</p>
+<p>Ma li genie de Philippos ha fat órdine in li cáos e pos 20 annus li concordant popul paisan de Macedonia ha esset suficent fort, por abatter li dissplittrat popules de Grecia.</p>
+<p>Sub li guidantie de un rubi o blanc dictator Russia, per bon recoltaturas, american capitale e german organisation vell posser restaurar se plu rapid quam li europanes conjecte. Tande li ínconcordant minor states de Europa va star contra li uniat grand imperia russian, de quel li territoria es quin vez plu grand quam li total area de Europa.</p>
+<p>Ni li minor states de Osteuropa, de Scandinavia e del Balcan, ni li desarmat Germania vell esser capabil retener li russian assalta. Rhen, Alpes, Adria vell devenir li límite de Europa: til que anc ti límite va cader e Europa devenir Westprovincie de Russia.</p>
+<p>Ex ti dangere existe solmen un salvation: li europan confederation. Por un concordant Europa ne existe null dangere russian. Nam it have li duplic númere de inhabitantes quam Russia e un industrie íncomparabilmen plu developat. Do li decision pri li dangere russian es ne che Russia ma che Europa.</p>
+<p>Li sequent 20 annus va presentar al historie li spectacul de un concurse inter li unition de Europa e li restauration de Russia. Si Russia restaura se de su economic catastrofe ante quam Europa uniona se - tande Europa ínsalvabilmen va venir sub hegemonia russian; si Europa uniona se ante que Russia es restaurat - tande Europa es salvat del dangere russian.</p>
+<p>Do li libertá de Europa es in li manus del Europanes.</p>
+<p>Li triesim dangere por li vive de Europa es: li economic ruina.</p>
+<p>Nequande li dissplittrat economie del ínunit states de Europa posse concurrentiar contra li índependent economie del Unit States de America. Nam li europan intra-doanes impedi omni modic production. Do li economic parcelles europan es condamnat a esser aplatat in futur per li economic imperias extra-europan de America, Britannia, Russia, e Ostasia - sam quam merceros per trustes.</p>
+<p>Cronic crises va subminar li europan economie e augmentar li indigentie, li misere e li custas - til que finalmen li bankrottat Europa va esser economic colonia american. Ti situation va ducter ad insclavation del europan laboreros per li american capitale, quel va escapar de omni control fat per su europan ovreros e oficiarios.</p>
+<p>De ti dangere existe solmen un salvation:</p>
+<p>Li confederation del europan continente a un doanal union, abolition del europan intra-doanes e creation de un economic territoria pan-europan.</p>
+<p>Omni altri via ducte al ruina.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+        <!-- Google Analytics Tag -->
+        <script type="text/javascript">
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+
+            // make sure we don't activate google analytics if the developer is
+            // inspecting the book locally...
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-151655688-1', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

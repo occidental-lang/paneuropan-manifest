@@ -1,0 +1,21 @@
+[book]
+authors = ["P. N. Coudenhove-Kalergi","Eugen Moess"]
+language = "ie"
+multilingual = false
+src = "src"
+title = "Pan-Europan Manifest"
+description = ""
+
+[output.html]
+theme = "src/theme"
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/occidental-lang/paneuropan-manifest"
+site-url = "/paneuropan-manifest/"
+google-analytics = "UA-151655688-1"
+
+[output.html.fold]
+enable = false
+
+[build]
+build-dir = "docs"

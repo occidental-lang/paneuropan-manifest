@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Pan-Europan Manifest</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Li Paneuropan Manifest</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="1.html"><strong aria-hidden="true">1.</strong> Unesim</a></li><li class="chapter-item expanded "><a href="2.html"><strong aria-hidden="true">2.</strong> Duesim</a></li><li class="chapter-item expanded "><a href="3.html"><strong aria-hidden="true">3.</strong> Triesim</a></li><li class="chapter-item expanded "><a href="4.html"><strong aria-hidden="true">4.</strong> Quaresim</a></li><li class="chapter-item expanded "><a href="5.html"><strong aria-hidden="true">5.</strong> Quinesim</a></li><li class="chapter-item expanded "><a href="6.html"><strong aria-hidden="true">6.</strong> Sixesim</a></li><li class="chapter-item expanded "><a href="7.html"><strong aria-hidden="true">7.</strong> Settesim</a></li><li class="chapter-item expanded "><a href="8.html"><strong aria-hidden="true">8.</strong> Ottesim</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pan-Europan Manifest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/paneuropan-manifest" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <hr />
+<h2><a class="header" href="#p-n-coudenhove-kalergi" id="p-n-coudenhove-kalergi">P. N. Coudenhove-Kalergi</a></h2>
+<h1><a class="header" href="#pan-europan-manifest" id="pan-europan-manifest">PAN-EUROPAN MANIFEST</a></h1>
+<p style="text-align:center;"><img src="img/cover.png"></p>
+<p style="text-align:center;">TRADUCTION EX GERMAN IN LI LINGUE INTERNATIONAL OCCIDENTAL</p>
+<p style="text-align:center;">EUGEN MOESS.</p>
+<p style="text-align:center;">VIENNA 1926.</p>
+<p style="text-align:center;font-size:small;">LI OFICIE CENTRAL DEL PANEUROPAN UNION ES VIENNA (WIEN), HOFBURG, MARSCHALLSTIEGE.</p>
+<p style="text-align:center;font-size:small;">PRINTERÍA A. ELKEN, REVAL, ESTONIA.</p>
+<hr />
+<h3><a class="header" href="#usage" id="usage">Usage</a></h3>
+<p>Iluminar un sol parol por vider un explication </p>
+<p><img src="img/exempleSolParol.png" alt="exemple de iluminar sol parol" /></p>
+<p>o iluminar mani paroles por vider un naiv traduction.</p>
+<p><img src="img/exempleManiParoles.png" alt="exemple de iluminar mani paroles" /></p>
+<p>Selecter tui lingue preferet por li traductiones.</p>
+<p><img src="img/linguePreferet.png" alt="exemple de selecter lingue preferet" /></p>
+<h1><a class="header" href="#prim" id="prim">Prim</a></h1>
+<p>Europanos!</p>
+<p>Europanos!</p>
+<p>Li fatal hor de Europa sona!</p>
+<p>In europan fabricas omni die on forja armes, por lacerar europan mannes - in europan laboratorias omni die on prepara venenes, por exterminar europan féminas e infantes.</p>
+<p>In sam témpore Europa lude con su fate in íncomprensibil frivolitá; in íncomprensibil íncuidantie it ne vide quo menacia it; in íncomprensibil ínactivitá it lassa drivar se sin volentie in li max terribil catastrofe, quel jamá ha atinget un continente.</p>
+<p>Li politica de Europa stira a un nov guerre. Du dozen nov Alsacia-Lorenas ha nascet. Un crise succede al altri. Chascun die li europan guerre anihilativ posse erupter per un accidente - fórsan per on atentate o per un revolte, - quel transforma nor continente a un sepultoria.</p>
+<p>Ti guerre anihilativ, quel es preparat del europan politica, pri terribilitá va superar li ultim grand guerre tam - quam ti ci ha superat li guerre germano-francés. Su elemente va esser li aer - su arme li venen - su scope li extirpation del adversario. Li combatte principal va directer se contra li cités del &quot;hinterland&quot;, contra féminas e infantes. In ti massacre li victet nationes va esser anihilat - li victoriosis: mortalmen vulnerat.</p>
+<p>Ti menaciant guerre significa li profund ruina de Europa, de su cultura e economie. Altri continentes va vicear it.</p>
+<p>Li duesim dangere a quel un dissplittrat Europa marcha, es li conquestation per Russia.</p>
+<p>Russia sta in sam relation a Europa, quam a su témpor Macedonia a Grecia.</p>
+<p>In comensa del reyentie de Philippos null greco credet un macedonian dangere; nam tande Macedonia esset in pelmel e anarchie.</p>
+<p>Ma li genie de Philippos ha fat órdine in li cáos e pos 20 annus li concordant popul paisan de Macedonia ha esset suficent fort, por abatter li dissplittrat popules de Grecia.</p>
+<p>Sub li guidantie de un rubi o blanc dictator Russia, per bon recoltaturas, american capitale e german organisation vell posser restaurar se plu rapid quam li europanes conjecte. Tande li ínconcordant minor states de Europa va star contra li uniat grand imperia russian, de quel li territoria es quin vez plu grand quam li total area de Europa.</p>
+<p>Ni li minor states de Osteuropa, de Scandinavia e del Balcan, ni li desarmat Germania vell esser capabil retener li russian assalta. Rhen, Alpes, Adria vell devenir li límite de Europa: til que anc ti límite va cader e Europa devenir Westprovincie de Russia.</p>
+<p>Ex ti dangere existe solmen un salvation: li europan confederation. Por un concordant Europa ne existe null dangere russian. Nam it have li duplic númere de inhabitantes quam Russia e un industrie íncomparabilmen plu developat. Do li decision pri li dangere russian es ne che Russia ma che Europa.</p>
+<p>Li sequent 20 annus va presentar al historie li spectacul de un concurse inter li unition de Europa e li restauration de Russia. Si Russia restaura se de su economic catastrofe ante quam Europa uniona se - tande Europa ínsalvabilmen va venir sub hegemonia russian; si Europa uniona se ante que Russia es restaurat - tande Europa es salvat del dangere russian.</p>
+<p>Do li libertá de Europa es in li manus del Europanes.</p>
+<p>Li triesim dangere por li vive de Europa es: li economic ruina.</p>
+<p>Nequande li dissplittrat economie del ínunit states de Europa posse concurrentiar contra li índependent economie del Unit States de America. Nam li europan intra-doanes impedi omni modic production. Do li economic parcelles europan es condamnat a esser aplatat in futur per li economic imperias extra-europan de America, Britannia, Russia, e Ostasia - sam quam merceros per trustes.</p>
+<p>Cronic crises va subminar li europan economie e augmentar li indigentie, li misere e li custas - til que finalmen li bankrottat Europa va esser economic colonia american. Ti situation va ducter ad insclavation del europan laboreros per li american capitale, quel va escapar de omni control fat per su europan ovreros e oficiarios.</p>
+<p>De ti dangere existe solmen un salvation:</p>
+<p>Li confederation del europan continente a un doanal union, abolition del europan intra-doanes e creation de un economic territoria pan-europan.</p>
+<p>Omni altri via ducte al ruina.</p>
+<h1><a class="header" href="#2" id="2">2</a></h1>
+<p>Do li dissplittrat Europa marcha vers un triplic catastrofe:</p>
+<ul>
+<li>
+<p>a un guerre exterminativ;</p>
+</li>
+<li>
+<p>al submission per Russia;</p>
+</li>
+<li>
+<p>al economic ruina.</p>
+</li>
+</ul>
+<p>Li unic salvation ex ti menaciant catastrofes es: Paneuropa; li confederation de omni democratic states de Europa continental a un international gruppe, a un union politic e economic.</p>
+<p>Li dangere del guerre exterminativ europan posse esser bannit solmen per un arbitrari pact paneuropan;</p>
+<p>li dangere del domination per Russia posse esser bannir solmen per un coalition defensiv paneuropan;</p>
+<p>li dangere del economic ruina posse esser bannit solmen per un union doanal paneuropan.</p>
+<p>Li arbitrari pact secura li pace - li coalition defensiv secura li libertá - li union doanal secura li economie.</p>
+<p>Ti tri punctus in essentie contene li programma paneuropan.</p>
+<p>Paneuropa consiste del peninsul inter Russia, Atlantic e mar Mediterran; adplu Island e li colonies del europan states. Li grand europan colonie, quel consiste de demí Africa inter Tripoli e Congo, Marocco e Angola, per rational explotation vell posser provider Europa per crud materiales.</p>
+<h1><a class="header" href="#3" id="3">3</a></h1>
+<p>Russia e Anglia es vicines de Paneurpa. Ti du grand imperias es capabil viver anc sin Europa - durant que li céteri states de ti continente es ligat per su geografic situation al comunitá del fate; condamnat o perir in comunitá - o resurrecter in comunitá.</p>
+<p>De mult flancas on postula li inclusion de Anglia in li futuri Paneuropa. Ti postulation falli pro li structura del imperia federativ britannic. Nequande li dominiones vell tolerar, que Anglia intra in plu strett relationes a un statal sistema altri quam ili; per to li juntion del anglés reyia a Paneuropa deveni un ilusion. Li adhesion del imperia federativ britannic a Paneuropa deveni un ilusion per li ínpossibilitá transformar Canada a un europan state. Li consequentie de ti provocation de America vell esser li adhesion de Canada al Panamerican Union e adplu li ruina del grand imperia britannic.</p>
+<p>Do un alliation inter li federation paneuropan e panbritannic in present es ínpossibil. Támen un colaboration politic inter ti du complexes es possibil e necessi por servir al pace e progress. In null case Paneuropa va esser directet contra Anglia.</p>
+<p>Anc li adhesion de Russia a Paneuropa hotémpore es ínpossibil. Un confederation inter democratic states in un látere e sovietistic in altri látere es practicmen ne realisabil. Per su renunciation al democratie, Russia spontanmen ha retraet se del stat-sistema europan.</p>
+<p>Anc contra Russia Paneuropa have nequal ínamical intention. Su scope es li conservation del russo-europan pace, comun desarmation, economic colaboration e respecte al reciproc developation intern.</p>
+<p>Si Paneuropa es creat, tande quam egaljurisat grand imperia it posse formar un nov societá de nationes con America, Britannia, Russia, e Ostasia. In tal societá null continente va timer intervention extran. Solmen a tal federation mundal li Unit States de America e Soviet Russia vell posser adherer.</p>
+<p>Quam índependent gruppe intra li Societá de Nationes Paneuropa vell haver li possibilitá self directer su fate, vice dever ceder li max important decisiones europan a sudamericanes e asiates, qualmen to hodie eveni in Genève. Al american Monroe-doctrina, pos cent annus, in fine deve esser contraposit un europan: &quot;Europa al europanes!&quot;</p>
+<p>Li paneuropan programma constitue un índivisibil totalité. Li via es diferent - li scope comun. Sin assecuration del permanent pace europan un union doanal europan es ínpossibil. Til quande omni state vive in permanent timore de su vicines, it deve preparar se, in casu de guerre, self producter omni necessi merces quam un forteresse. Por to it have beson por national industries e doane protectiv. Solmen li desaparition del dangere de guerre por obligation arbitrari vell aperter al europan states li via al abolition del límites doanal e transition al líber comercie europan. Invers, li national industries e lor protection per li state constitue un centre del europan nationalisme e un menacie del europan pace. Ma comunité de interesses es li max secur via o politic comunité. Talmen li politic parte del paneuropan programma apoya li economic e invers.</p>
+<h1><a class="header" href="#4" id="4">4</a></h1>
+<p>Li via al realisation de Paneuropa es li sequent:</p>
+<p>Unesimmen: Gruppation del europan states secun li modelle de Panamerica; to vell esser possibil sive intern del Societé de Nationes (pos li adhesion de Germania), sive per convocation de un conferentie paneuropan secun li modelle del conferentie panamerican.</p>
+<p>Duesimmen: Federation defensiv por protection del comun límite in ost.</p>
+<p>Triesimmen: Conclusion de arbitrari obligationes e reciproc garantíe del límites inter li states de Europa;</p>
+<p>Quaresimmen: Preparar li via a un union doanal per periodic conferenties economic del europan states.</p>
+<p>Ti programma, quel ne contene alquicos ínpossibil, vell dever esser comensat sin ajornation de omnis qui reconosse li situation de Europa e vole salvar su continente.</p>
+<h1><a class="header" href="#5" id="5">5</a></h1>
+<p>Li unesim passu al solution del europan problema es li submission de it al discussion. Li dangeres, qui menacia nor continente, ne es suficentmen combattet, pro que ili ne es suficent reconosset. Li politic claration es li via al politic renascentie.</p>
+<p>Nam 90 per cent de omni europanes vole del politica necos plu quam li assecuration del pace e del libertá e li augmentation del comforte. Si it va esser les clar, que li hodial politica con dangere mortal e in permanentie menacia li pace, li libertá e li comforte, ili va abandonar ti declivi via e serchar un altri direction politic.</p>
+<p>Pro que un submission del europan problema al discussion ducte in prescrit trajectorie a su solution, li politica ne posi it - ma supresse it.</p>
+<p>On posse reprochar al guvernamentes ne que ili misresponde al europan problema, ma que ili totalmen ne considera it.</p>
+<p>Durant que li social problema con jure es discusset in omniloc e omnidie: in presse e parlament, litteratura e familie - li duesim vital problema por 300 million europanes es simplicmen sufocat per silentie.</p>
+<p>Li europan problema cúlmina in li question:</p>
+<p>&quot;Esque it es possibil, que sur li micri europan peninsul 25 states vive in international anarchie un apu altru, sin que ti statu fini per un terribil catastrofe politic, economic e cultural?&quot;</p>
+<p>Anti-europanes responde a ti question, que to ya esset possibil anc til nu.</p>
+<p>Ti-ci responsion misconosse li factes. Nam in li 20-esim secul omni supositiones por li multistatitá de Europa de til nu completmen ha mutat se.</p>
+<p>Li anteyan Europa havet li hegemonie mundal. Secur a exterior, it posset permisser se li luxu de intern guerres sin dangere mortal. In li 20-esim secul ti europan hegemonie mundan ha bancrottat. Asia ha elevat se sub li guidantie de Japan. America ha superat omni europan states, Russia ha separat se de Europa per li introduction del sovietisme, e Anglia, unvez grand-imperia europan, ha devenit li cap de un intercontinental imperia mundan, de quel li centre de gravitation jace in li Indic Ocean.</p>
+<p>Contra ti crescent organisation del extra-europan munde a potent imperias sta li crescent desorganisation del europan munde. Ci li dissplittration ha plu progresset pos li guerre. In Central Europa du grand imperias ha cadet por far plazze a un serie de plu micri states. Talmen Europa es expussat ex li centre del munde; alquande subject del politica mundan - it nu ha devenit object de it: debilat, vulnerat, apovrat, lacerat.</p>
+<p>Un restauration del hegemonie europan in li munde es ínpossibil; ma ancor sembla esser possibil, per unition del europan states, elevar ti continente a un quinesim imperia mundan e talmen salvar li pace, li libertá e li comforte del europanes.</p>
+<p>Anc li progresses del tecnica ha fat impossibil un retorna de Europa in li secul passat. Li stal-guerre del passate ha solmen debilat li popules - li gas-guerre del futur vell anihilar les. In ultra automobil e relvia, aviatica e radio ha tam diminuet li europan distanties, que Europa de hodie ha devenit plu litt quam Italia del Renascentie.</p>
+<p>Ti aproximation de omni europan states ha sammen multiplicat li comunitá del interesses quam lor contrastes. On deve atribuer al tecnica, que hodie li interesses del vicin states europan es tam ligat un al altri, que ili have nu solmen li alternative inter ínamicitá e federation; índiferent vicinitá ha devenit ínpossibil.</p>
+<p>Do li tot problema europan culmina in li alternative:</p>
+<ul>
+<li>
+<p>Guerre o pace!</p>
+</li>
+<li>
+<p>Cáos - o organisation!</p>
+</li>
+<li>
+<p>Concurrent armation - o desarmation!</p>
+</li>
+<li>
+<p>Concurrentie - o cooperation!</p>
+</li>
+<li>
+<p>Ruination - o coalition!</p>
+</li>
+</ul>
+<p>Null europan in futur posse escapar ti decision. Neutralitá es perfidie. Qui ne es pan-europano - es antieuropano!</p>
+<p>Qui ne vide li dangeres, vers queles li dissplittrat Europa marcha, ti es ciec politicmen; ma qui vide ti dangeres e támen fa necos, por preventer les - es un trahitor e criminard pri Europa; il sacrifica li futur de su filies, de su nation, de su cultura a su comoditá o a su profite; il fa se complicio pri omni catastrofes queles deve irrupter súper Europa, si it persiste in su curs hodial.</p>
+<h1><a class="header" href="#6" id="6">6</a></h1>
+<p>Li futur de Europa depende del response al europan problema. Ti response jace in li manus del europanes. Noi vive in democratic states e noi es conresponsiv pri li politica de nor guvernamentes. Noi ne have li jure restricter nos a critica, ma li deventie colaborar pri li formation de nor fate politic.</p>
+<p>Si li popules de Europa vole - Paneuropa va nascer; it es solmen necessi, que ili refusa votar a omni candidates e partises, de queles li programma extern es anti-europan. Talmen omni europan posse colaborar in li perition - o in li reviventie de Europa.</p>
+<p>Li majorité del europanes ne vide li decision, quel es in question, e li responsivitiá, quel pesa sur it. Demagogic frases ha ciecat grand masses de europanes: ciec contra li cáos de hodie - ciec contra li ciecitá de lor guides. In compensation altris ha devenit sin esperantie ínactiv; ili ha renunciat li iniciative politic e ha cedet it a folles, queles sin cap curre furente vers li abisse e trena con se li apatic masses in li perition.</p>
+<p>Ti du gruppes de europanes: li ciecs e li ínfirmes it es necessi revigilantar les. Li unis deve aprender vider, li altris voler. Ta es necessi politic intellectu - ci politic volentie.</p>
+<p>Sempre denov li simplic veritá deve esser repetit: un dissplittrat Europa ducte a guerre, opression, misere; un unitari Europa a pace, libertá, comforte.</p>
+<p>Si alquande ti alternative in su tot importantie es clar al europanes - tande omni europane mey selecter, sur quel de ti du vias il vole marchar: sur li via del europan anarchie - o sur li via del europan organisation; sur li via del morte - o sur li via del vive.</p>
+<p>Li combatte por Paneuropa va esser dur e exasperat. It postula crede, perseverantie, resolution. Li question es plu quam li fate de un guvernament; li question es existentie o non-existentie del homanité europan!</p>
+<p>Li guidantes del antieuropanes es tenaci e astut. Ili va trovar sempre nov signal-paroles, por combatter Paneuropa. Ili va passar li iniciative paneuropan a su ínamics - por impedir li conjuntion; ili va posir questiones secundari in li unesim rang - por evitar li problema cardinal; ili va circumvallar se detra li idé de un federation mundan - por impedir e traversar Paneuropa; finalmen ili va provar, declarar Paneuropa quam utopie, por refusar it poy, con li expression de max cordial simpatie.</p>
+<p>Europanes, ples ne lassar intimidar vos per tal manovres! Ples responder les, que omni popul deve comensar li europanisation che se, pro que nequi posse comensar che li altri. E que ye un die ne va exister plu alt honor por un popul europan, quam: har professet Paneuropa quam unesim.</p>
+<p>Ples responder a ti, qui refusa Paneuropa pro su límites, que it ne posse atender li disruption del britannic o li democratisation del russian state. Ma que Paneuropa es vivent e organic quam chascun politic creation e que su futuri union con Russia e Anglia ne es impossibil.</p>
+<p>Ples responder a ti, secun qui un mutation del hodial límites es li precondition de un Nov-Europa, que un discolation de ti límites e possibil solmen per general guerre e ruina - durant que li deconstruction de ili in national, strategic e economic concernentie per protection del minorités, arbitrage-pacte e union doanal ducte a pace e comforte; que stabil límites es possibil in Europa - ma equitabil límites es impossibil.</p>
+<p>Ples responder a ti, qui refusa Paneuropa in li nómine del federation mundan, que justmen Paneuropa es li via por renovar li Liga de Nationes e aperter li porta a it por Russia e America. Que Europa solmen es unesim gradu, ne contrast al federation mundan, e que lu desirabil es nominat politica solmen in li cadre de lu possibil.</p>
+<p>Finalmen ples responder a ti, qui vole declarar Paneuropa quam utopie, que ante su nascentie null grand eveniment historic escapar li reprocha esser utopie. Ma Paneuropa ne es utopie, pro que nequel lege natural barra li via a su realisation: solmen li volentie del europanes posse impedir e traversar it - solmen li volentie del europanes posse crear it!</p>
+<p>Pro to ples responder a ti qui questiona vos, ca Paneuropa va nascer - o ne: &quot;It va, si vu vole! Si vu vole it con energie e persistentie! Ci ne es question, ca it va nascer - ma: que it posse nascer. Nam noi ne es astrologos - ma politicos; ne profetes - ma combattentes!&quot;</p>
+<h1><a class="header" href="#7" id="7">7</a></h1>
+<p>A ti combatte por Europa noi advoca omnis qui crede li possibilitá e li necessitá del Unit States de Europa; por qui Paneuropa ne es utopie - ma programma; ne reveríe - ma postulate!</p>
+<p>Avan ti grand scope li grand contrastes de nation, de confession e de partise desapari; unesimmen li dom deve esser constructet, ante que li disputation pri li tapetes comensa!</p>
+<p>Do partises e confessiones mey decider lor contrastes in li politica intern - in li politica extern ili deve esser concordant in li combatte contra li ínamics del europan pensa. Si Paneuropa victe - tande li via es líber por li solution de omni problemas social e cultural; si Paneuropa sucumbe - tande omni céteri problemas solue se per se self, pro que pos un generation Europa va esser un masse-tomb e un ruin-masse - sepultoria de un cultura alquande hant floreat.</p>
+<p>Solmen per concordie li paneuropanes de omni lingues posse victoriar súper li ínunit antieuropanes, qui combatte se reciproc in su chauvinisme.</p>
+<p>Li armes in li combatte por Paneuropa es: claration e propaganda. Un resoluet e convictet paneuropano valora plu quam mill debiles e dubitantes. Nam li victorie del pensa depende del energie de crede e propaganda del unesim paneuropanes.</p>
+<p>Pro to, europanes, ples jettar li europan problema in omni debattes; in hem e inter amics, in societés e in conventes, in li presse e in li litteratura! Ples fortiar vor colegos, decider se por o contra li europan pensa! Ples aperter lor ocules, ples eraffar les ex lor índiferentie!</p>
+<p>Ples far clar a omni, que ci it concerne li totalité. Si vor adversarios es fort: ples esser plu fort! Si ili es astut, ples esser plu astut! Si ili es resolut: ples esser plu resolut quam ili! Ples refutar les in omniloc, ples monstrar, ad ú lor via ducte les! Ples demascar lor guidantes quam misductores e ciecs!</p>
+<p>Ples clarar ti qui es antieuropano pro ciecitá! Ples combatter ti qui es contra Paneuropa pro follie! Ples anihilar ti qui es contra Paneuropa pro passion de profite e ambicie! Nam ili vendi e mercacha vor future e li future de vor filies: ne existe plu mal trahitor e plu dangerosi criminardes quam ili!</p>
+<p>In ti combatte contra ciecitá, follie e crímine del antieuropan politica vor devise mey esser: claritá del intelectu e puritá del volentie.</p>
+<h1><a class="header" href="#ultim" id="ultim">Ultim</a></h1>
+<p>Li &quot;Paneuropan Union&quot; es li organ del paneuropan movement. Li adhesion es apert a omnis, qui vole salvar e unir Europa: a féminas e mannes, a societés e organisationes. It imposa a su combattentes li deventie combatter por Paneuropa. Chascun ples combatter per ti medies queles il dispone. Ples recrutar nov paneuropanes, ples obligar vor candidates professer li programma europan inaugurativ! Qui posse payar por it, ples payar! Qui posse scrir, ples scrir por it!</p>
+<p>Nam li via a Paneuropa es nominat:</p>
+<p>Propaganda, propaganda, propaganda!</p>
+<p>Quo Komensky e Nietsche ha revat - quo Kant ha imaginat - quo Bonaparte e Mazzini ha volet - li paneuropan movement va realisar it: li Unit States de Europa!</p>
+<p>In li combatte por Paneuropa li roles es talmen distribuet, que li german paneuropanes combatte solmen contra german antieuropanes - e li francés paneuropanes contra li francés antieuropanes. Chascun altri tactica adporta plu mult damage quam avantage e augmenta li chauvinisme, in vice de diminuer it. Solmen si li europan pensa ha victoriat contra li chauvinisme in un popul, it have jure, portar it ad extern.</p>
+<p>Li unesim paneuropanes deve conscir que ili es avan-postos de un million-armé in li combatte decisiv por li futuritá de lor continente.</p>
+<p>In li signe del sole-cruce, quel junte li sole del ilumination con li rubi cruce del international humanitá - li paneuropan idé va victoriar tot mental debilitá e ínhumanitá de destructiv politica chauvinistic.</p>
+<p>In ti signe va crescer Nov-Europa, quel es professet ja hodie del max bon europanes.</p>
+<p>Europanes, ples auxiliar preparar ti grand separation inter futur e passat, inter humanitá e barbarisme, ilumination e inciecation, renascentie e anihilation!</p>
+<p>Stante avan li alternative inter pace e guerre, libertá e opression, comforte e ruina, Europa va decider se in su preponderant majorité por Paneuropa.</p>
+<p>Qui ama su nation, deve voler Paneuropa.</p>
+<p>Qui ama su familie, deve voler Paneuropa!</p>
+<p>Qui ama se self, deve voler Paneuropa.</p>
+<p>Nam solmen un durant pace europan secura li futur del europan nationes, families e homes.</p>
+<p>Do, Europanes, ples adherer in masses al pan-europan movement e ples salvar Europa e vor filies!</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+        <!-- Google Analytics Tag -->
+        <script type="text/javascript">
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+
+            // make sure we don't activate google analytics if the developer is
+            // inspecting the book locally...
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-151655688-1', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

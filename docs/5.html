@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Quinesim - Pan-Europan Manifest</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Li Paneuropan Manifest</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="1.html"><strong aria-hidden="true">1.</strong> Unesim</a></li><li class="chapter-item expanded "><a href="2.html"><strong aria-hidden="true">2.</strong> Duesim</a></li><li class="chapter-item expanded "><a href="3.html"><strong aria-hidden="true">3.</strong> Triesim</a></li><li class="chapter-item expanded "><a href="4.html"><strong aria-hidden="true">4.</strong> Quaresim</a></li><li class="chapter-item expanded "><a href="5.html" class="active"><strong aria-hidden="true">5.</strong> Quinesim</a></li><li class="chapter-item expanded "><a href="6.html"><strong aria-hidden="true">6.</strong> Sixesim</a></li><li class="chapter-item expanded "><a href="7.html"><strong aria-hidden="true">7.</strong> Settesim</a></li><li class="chapter-item expanded "><a href="8.html"><strong aria-hidden="true">8.</strong> Ottesim</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pan-Europan Manifest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/paneuropan-manifest" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#5" id="5">5</a></h1>
+<p>Li unesim passu al solution del europan problema es li submission de it al discussion. Li dangeres, qui menacia nor continente, ne es suficentmen combattet, pro que ili ne es suficent reconosset. Li politic claration es li via al politic renascentie.</p>
+<p>Nam 90 per cent de omni europanes vole del politica necos plu quam li assecuration del pace e del libertá e li augmentation del comforte. Si it va esser les clar, que li hodial politica con dangere mortal e in permanentie menacia li pace, li libertá e li comforte, ili va abandonar ti declivi via e serchar un altri direction politic.</p>
+<p>Pro que un submission del europan problema al discussion ducte in prescrit trajectorie a su solution, li politica ne posi it - ma supresse it.</p>
+<p>On posse reprochar al guvernamentes ne que ili misresponde al europan problema, ma que ili totalmen ne considera it.</p>
+<p>Durant que li social problema con jure es discusset in omniloc e omnidie: in presse e parlament, litteratura e familie - li duesim vital problema por 300 million europanes es simplicmen sufocat per silentie.</p>
+<p>Li europan problema cúlmina in li question:</p>
+<p>&quot;Esque it es possibil, que sur li micri europan peninsul 25 states vive in international anarchie un apu altru, sin que ti statu fini per un terribil catastrofe politic, economic e cultural?&quot;</p>
+<p>Anti-europanes responde a ti question, que to ya esset possibil anc til nu.</p>
+<p>Ti-ci responsion misconosse li factes. Nam in li 20-esim secul omni supositiones por li multistatitá de Europa de til nu completmen ha mutat se.</p>
+<p>Li anteyan Europa havet li hegemonie mundal. Secur a exterior, it posset permisser se li luxu de intern guerres sin dangere mortal. In li 20-esim secul ti europan hegemonie mundan ha bancrottat. Asia ha elevat se sub li guidantie de Japan. America ha superat omni europan states, Russia ha separat se de Europa per li introduction del sovietisme, e Anglia, unvez grand-imperia europan, ha devenit li cap de un intercontinental imperia mundan, de quel li centre de gravitation jace in li Indic Ocean.</p>
+<p>Contra ti crescent organisation del extra-europan munde a potent imperias sta li crescent desorganisation del europan munde. Ci li dissplittration ha plu progresset pos li guerre. In Central Europa du grand imperias ha cadet por far plazze a un serie de plu micri states. Talmen Europa es expussat ex li centre del munde; alquande subject del politica mundan - it nu ha devenit object de it: debilat, vulnerat, apovrat, lacerat.</p>
+<p>Un restauration del hegemonie europan in li munde es ínpossibil; ma ancor sembla esser possibil, per unition del europan states, elevar ti continente a un quinesim imperia mundan e talmen salvar li pace, li libertá e li comforte del europanes.</p>
+<p>Anc li progresses del tecnica ha fat impossibil un retorna de Europa in li secul passat. Li stal-guerre del passate ha solmen debilat li popules - li gas-guerre del futur vell anihilar les. In ultra automobil e relvia, aviatica e radio ha tam diminuet li europan distanties, que Europa de hodie ha devenit plu litt quam Italia del Renascentie.</p>
+<p>Ti aproximation de omni europan states ha sammen multiplicat li comunitá del interesses quam lor contrastes. On deve atribuer al tecnica, que hodie li interesses del vicin states europan es tam ligat un al altri, que ili have nu solmen li alternative inter ínamicitá e federation; índiferent vicinitá ha devenit ínpossibil.</p>
+<p>Do li tot problema europan culmina in li alternative:</p>
+<ul>
+<li>
+<p>Guerre o pace!</p>
+</li>
+<li>
+<p>Cáos - o organisation!</p>
+</li>
+<li>
+<p>Concurrent armation - o desarmation!</p>
+</li>
+<li>
+<p>Concurrentie - o cooperation!</p>
+</li>
+<li>
+<p>Ruination - o coalition!</p>
+</li>
+</ul>
+<p>Null europan in futur posse escapar ti decision. Neutralitá es perfidie. Qui ne es pan-europano - es antieuropano!</p>
+<p>Qui ne vide li dangeres, vers queles li dissplittrat Europa marcha, ti es ciec politicmen; ma qui vide ti dangeres e támen fa necos, por preventer les - es un trahitor e criminard pri Europa; il sacrifica li futur de su filies, de su nation, de su cultura a su comoditá o a su profite; il fa se complicio pri omni catastrofes queles deve irrupter súper Europa, si it persiste in su curs hodial.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="6.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="6.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+        <!-- Google Analytics Tag -->
+        <script type="text/javascript">
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+
+            // make sure we don't activate google analytics if the developer is
+            // inspecting the book locally...
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-151655688-1', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>
